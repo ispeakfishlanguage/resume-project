@@ -20,6 +20,11 @@
 .bg-color-contact {
     background-color: #fff;
 }
+
+.bg-color-interests {
+    background-color: #f4f4f4;
+}
+
 .ui-menu-color-home {
     background-color: #e67e22;
 }
@@ -30,6 +35,14 @@
 
 .ui-menu-color-contact {
     background-color: #3498db;
+}
+
+.ui-menu-color-github {
+    background-color: #1c4a6c;
+}
+
+.ui-menu-color-interests {
+    background-color: #e74c3c;
 }
 
 .ui-menu-color-download {
@@ -308,6 +321,10 @@ button[type="submit"] {
     background-color: #e84610;
 }
 
+/* -----------------------------------------Interests */
+div#map {
+    min-height: 360px;
+}
 /* ---------------------------------------Media Queries */
 @media(min-width: 992px) {
     .center-form{
