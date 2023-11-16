@@ -49,10 +49,12 @@
                                 </a>
                             </li>
                             <li class="col-6 col-sm-2 ui-menu-color-interests list-inline-item menuitem">
-                                <a href="interests.html" class="hvr-sweep-to-bottom"><i class="fa fa-users" aria-hidden="true"></i><span>Interests</span></a>
+                                <a href="interests.html" class="hvr-sweep-to-bottom"><i class="fa fa-users"
+                                        aria-hidden="true"></i><span>Interests</span></a>
                             </li>
                             <li class="col-6 col-sm-2 ui-menu-color-github list-inline-item menuitem">
-                                <a href="github.html" class="hvr-sweep-to-bottom"><i class="fa fa-github" aria-hidden="true"></i><span>GitHub</span></a>
+                                <a href="github.html" class="hvr-sweep-to-bottom"><i class="fa fa-github"
+                                        aria-hidden="true"></i><span>GitHub</span></a>
                             </li>
                             <li class="col6 col-sm-2 ui-menu-color-download list-inline-item menuitem">
                                 <a href="assets/cv/carolina-leguizamon-cv.pdf" class="hvr-sweep-to-bottom">
@@ -67,20 +69,37 @@
         </div>
     </header>
     <section class="container-fluid">
-        
+        <div class="row bg-color-contact">
+            <div class="col">
+                <h3 class="contact-heading uppercase text-center">
+                    View my projects on GitHub
+                </h3>
+                <h5 class="uppercase text-center">You can also search on other user profiles</h5>
+
+                <div class="center-form">
+                    <input type="text" id="gh-username" value="octocat" oninput="fetchGitHubInformation()" />
+                    <div id="gh-user-data"></div>
+                    <div id="gh-repo-data"></div>
+
+                </div>
+
+            </div>
+        </div>
+
     </section>
     <footer class="container-fluid">
         <div id="footer-details" class="row">
             <div class="col-sm-4">
                 <h5 class="uppercase general-sub">About</h5>
                 <p class="inline-block">
-                    I'm Carolina, Full Stack Developer with a background in engineering and linguistics. I bring a unique perspective to technology and design. Committed to continuous learning.
+                    I'm Carolina, Full Stack Developer with a background in engineering and linguistics. I bring a
+                    unique perspective to technology and design. Committed to continuous learning.
                 </p>
             </div>
             <div class="col-sm-4">
                 <h5 class="uppercase general-sub">Download</h5>
                 <p class="inline-block">
-                    Need a printable and summarized version of my CV? 
+                    Need a printable and summarized version of my CV?
                     Download it here.
                     <a href="#carolina-leguizamon-cv.pdf" target="_blank" class="cv-pdf">
                         <i class="fa fa-download" aria-hidden="true"></i>
@@ -113,6 +132,12 @@
                         <a href="https://github.com/ispeakfishlanguage/" target="_blank">
                             <i class="fa fa-github" aria-hidden="true"></i>
                             <span class="sr-only">GitHub link.</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://www.freecodecamp.org/ispeakfishlang" target="_blank">
+                            <i class="fa fa-free-code-camp" aria-hidden="true"></i>
+                            <span class="sr-only">freeCodeCamp link.</span>
                         </a>
                     </li>
                 </ul>
